@@ -22,12 +22,12 @@ echo "配置完成..."
 echo "初始化部署环境..."
 git clone -q https://github.com/liuquanhao/ibm_v2ray
 
-echo "下载ibmcloud中..."
-cd ./ibm_v2ray/
-wget -qO ${IBM_CLI_BAG} ${IBM_CLI_URL}
-tar xf ${IBM_CLI_BAG} 
-rm ${IBM_CLI_BAG}
-chmod 700 IBM_Cloud_CLI/ibmcloud IBM_Cloud_CLI/ibmcloud-analytics
+#echo "下载ibmcloud中..."
+#cd ./ibm_v2ray/
+#wget -qO ${IBM_CLI_BAG} ${IBM_CLI_URL}
+#tar xf ${IBM_CLI_BAG} 
+#rm ${IBM_CLI_BAG}
+#chmod 700 IBM_Cloud_CLI/ibmcloud IBM_Cloud_CLI/ibmcloud-analytics
 
 echo "下载v2ray中..."
 cd ./v2ray_deploy/
