@@ -13,10 +13,7 @@ read -p "请输入你的应用内存大小(默认256)：" IBM_MEM_SIZE
 if [ -z "${IBM_MEM_SIZE}" ];then
     IBM_MEM_SIZE=256
 fi
-read -p "请输入你需要部署的端口（范围：1024-65535，默认8080)：" IBM_APP_PORT
-if [ -z "${IBM_APP_PORT}" ];then
-    IBM_APP_PORT=8080
-fi
+IBM_APP_PORT=8080
 echo "应用名称：${IBM_APP_NAME}"
 echo "内存大小：${IBM_MEM_SIZE}"
 echo "部署端口：${IBM_APP_PORT}"
