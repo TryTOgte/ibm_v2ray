@@ -13,7 +13,7 @@ https://github.com/badafans/v2ray-cloudfoundry
 参考上面的IBMyes项目，在ibm console运行：
 
 ```bash
-$ curl -Lso- https://raw.githubusercontent.com/liuquanhao/ibm_v2ray/master/deploy.sh | bash
+$ curl -Lso- https://raw.githubusercontent.com/TryTOgte/ibm_v2ray/master/deploy.sh | bash
 ```
 
 有点点差别，这个项目会生成唯一的`uuid`，避免了一群mjj用一个的尴尬境地
